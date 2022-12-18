@@ -1,24 +1,10 @@
-<html>
-  <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  </head>
- <center>
-  <body>
-    <h1></h1>
-
-    <div id="loading" style="display:none;">
-      <center>
-        <img src="https://media4.giphy.com/media/S7FB0c1h8NzCaru9Yk/giphy.gif?cid=ecf05e47bprkw8r27ck3e20u5f8q3mr34jnni547c489stc2&rid=giphy.gif&ct=g" height="350" width="500">
-        <br>
-        <strong>No Offer yet please wait...</strong>
-        <br>
-        <br>
-      </center>
-    </div>
-
-    <button name="button1" onclick="$('#loading').show();">
-      𝐅𝐢𝐧𝐝 𝐍𝐞𝐰 𝐂𝐨𝐮𝐩𝐨𝐧
-    </button>
-
-  </body>
-</html>
+<div class="generator">
+  <form>
+    <h1>coupon Code </h1>
+    <input class="length" type="number" min="2" placeholder="How long your codes will be?">
+    <input class="count" type="number" min="1" placeholder="How many code you want?">
+    <input class="possible" type="text" placeholder="Possible characters" value="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789">
+    <button class="generate">Generate</button>
+  </form>
+  <textarea class="codes"></textarea>
+</div>
